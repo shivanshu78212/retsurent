@@ -1,0 +1,33 @@
+body{
+
+	font-family: 'PT Sans',sans-serif;
+	background: url('h2tips.jpg')  no-repeat ;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	margin: 0;
+}
+
+nav{
+	height: 80px;
+		width: 100%;
+		background: rgba(173,216,230, 0.50);
+		position: fixed;
+
+}
+	nav li{
+		display: inline;
+		float: left;
+	}
+	nav a{
+		display: inline-block;
+		width: 100px;
+		text-align: center;
+		text-decoration: none;
+		padding:10px 0px ;
+		color: #eee;
+		font-weight: bold;
+	}
+	nav li:hover{
+		background-color: #000080;
+	}

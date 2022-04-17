@@ -1,0 +1,99 @@
+	body{
+
+	font-family: 'PT Sans',sans-serif;
+	background-color: #252529;
+	margin:0;
+	color: #fff;
+	line-height: 1.8;
+}
+a{
+	text-decoration: none;
+	color: #ccc;
+}
+#showcase {
+	margin: 0;
+	padding: 0;
+	background: url('pro.jpg') no-repeat center ;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+#showcase .container{
+	margin-top: 18vh;
+}
+	#showcase h1{
+		font-size: 62px;
+		margin-bottom: 0;
+	}
+	#showcase h2{
+		font-size: 40px;
+	}
+	nav{
+		height: 80px;
+		width: 100%;
+		background: rgba(255,127,80, 0.50);
+				position: fixed;
+	}	
+	nav li{
+		display: inline;
+		float: left;
+	}
+	nav a{
+		display: inline-block;
+		width: 100px;
+		text-align: center;
+		text-decoration: none;
+		padding:10px 0px ;
+		color: #eee;
+		font-weight: bold;
+		
+	}
+	nav li:hover{
+		background-color: #902020;
+	}
+	.container{
+		max-width: 1100px;
+		text-align: center;
+		margin: 0 auto;
+		padding: 3rem;
+
+	}
+	.ilu{
+		display: flex;
+		justify-content: center;
+	
+	}
+	.ilu img{
+		width:200px;height: 200px;border-radius: 50%;
+		margin: 20px;
+		border: 5px solid royalblue;
+	}
+	.mod{
+		border-image: 50%;
+	}
+	.lead{
+		font-size: 1rem;
+	}
+	
+	ul.cf{
+		list-style-type: none;
+	}
+	}
+	footer .footer-bottom{
+		background-color: #333;
+		text-align: center;
+		padding: 1rem;
+
+	}
+	.m-title{
+
+		
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px red;
+	}
+	.line{
+
+ color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
